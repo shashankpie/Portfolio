@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "text": "Until you work as hard as those you admire, don't explain away their success as luck.",
+    "author": "Unknown"
+  },
+  {
+    "id": 2,
+    "text": "If you don't sacrifice for your dream, then your dream becomes your sacrifice.",
+    "author": "Unknown"
+  },
+  {
+    "id": 3,
+    "text": "I believe that things only gonna change when you get into 'Action'.",
+    "author": "Unknown"
+  },
+  {
+    "id": 4,
+    "text": "Ideas are worthless unless we act on them.",
+    "author": "Unknown"
+  },
+  {
+    "id": 5,
+    "text": "My motivation for a work to get started is 'Progress'.",
+    "author": "Unknown"
+  },
+  {
+    "id": 6,
+    "text": "Fail before 20, retire before 30, make sure you do what you love.",
+    "author": "Unknown"
+  },
+  {
+    "id": 7,
+    "text": "We become what we think about.",
+    "author": "Unknown"
+  },
+  {
+    "id": 8,
+    "text": "Thoughts create energy, energy creates matter.",
+    "author": "Unknown"
+  },
+  {
+    "id": 9,
+    "text": "Seek wealth, not money or status.",
+    "author": "Unknown"
+  },
+  {
+    "id": 10,
+    "text": "I know nothing, but I'm ready to learn anything (earlier in your career).",
+    "author": "Unknown"
+  },
+  {
+    "id": 11,
+    "text": "Progress is better than perfection.",
+    "author": "Unknown"
+  },
+  {
+    "id": 12,
+    "text": "If you do what is easy, your life will be hard. If you do what is hard, your life will be easy.",
+    "author": "Unknown"
+  },
+  {
+    "id": 13,
+    "text": "If you don't fail, you are not even trying.",
+    "author": "Unknown"
+  },
+  {
+    "id": 14,
+    "text": "To get something you never had, you have to do something you never did.",
+    "author": "Unknown"
+  },
+  {
+    "id": 15,
+    "text": "Nothing in life is worthwhile, unless you take 'Risks'.",
+    "author": "Unknown"
+  },
+  {
+    "id": 16,
+    "text": "There is no passion to be found playing small and settling for a life that's less than the one you're capable of living.",
+    "author": "Unknown"
+  },
+  {
+    "id": 17,
+    "text": "Every pro was once a beginner.",
+    "author": "Unknown"
+  },
+  {
+    "id": 18,
+    "text": "Don't be a programmer, be a problem solver.",
+    "author": "Unknown"
+  },
+  {
+    "id": 19,
+    "text": "Action causes motivation, inaction causes stress/anxiety.",
+    "author": "Unknown"
+  },
+  {
+    "id": 20,
+    "text": "Get comfortable with being uncomfortable.",
+    "author": "Unknown"
+  },
+  {
+    "id": 21,
+    "text": "Don't show your plans, show them your results.",
+    "author": "Unknown"
+  },
+  {
+    "id": 22,
+    "text": "Leaders are readers.",
+    "author": "Unknown"
+  },
+  {
+    "id": 23,
+    "text": "Self-care and self-love is not selfish.",
+    "author": "Unknown"
+  },
+  {
+    "id": 24,
+    "text": "Knowledge is power, reading is 'Superpower'.",
+    "author": "Unknown"
+  },
+  {
+    "id": 25,
+    "text": "Sometimes, happiness is a choice, which I don't want to make.",
+    "author": "Unknown"
+  },
+  {
+    "id": 26,
+    "text": "Things that come easy, will go easy. Good things take time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 27,
+    "text": "If you wish to be more visible in the world, you will have to do a lot of Invisible work.",
+    "author": "Unknown"
+  },
+  {
+    "id": 28,
+    "text": "Failure is a delay, not defeat.",
+    "author": "Unknown"
+  },
+  {
+    "id": 29,
+    "text": "Focus on accuracy first—speed will come naturally with practice.",
+    "author": "Unknown"
+  },
+  {
+    "id": 30,
+    "text": "The day you plant the seed is not the day you eat the fruit.",
+    "author": "Unknown"
+  },
+  {
+    "id": 31,
+    "text": "Confuse them with your silence and shock them with your results.",
+    "author": "Unknown"
+  },
+  {
+    "id": 32,
+    "text": "The razor blade is sharp but can't cut a tree, the axe is strong but can't cut hair.",
+    "author": "Unknown"
+  },
+  {
+    "id": 33,
+    "text": "Your hard-work is pointless, if you're not enjoying it. Enjoy the journey.",
+    "author": "Unknown"
+  },
+  {
+    "id": 34,
+    "text": "The more you sweat in practice, the less you bleed in war.",
+    "author": "Unknown"
+  },
+  {
+    "id": 35,
+    "text": "Hunger kills more than war.",
+    "author": "Unknown"
+  },
+  {
+    "id": 36,
+    "text": "The most successful people in the world choose education over entertainment.",
+    "author": "Unknown"
+  },
+  {
+    "id": 37,
+    "text": "Ultimately, we all just want to be happy. Stay cool, stay happy.",
+    "author": "Unknown"
+  },
+  {
+    "id": 38,
+    "text": "The only real failure in life is when you stop trying. Don't give up.",
+    "author": "Unknown"
+  },
+  {
+    "id": 39,
+    "text": "Don't sell your time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 40,
+    "text": "If you choose a job you love, you'll never have to work a day in your life. Works become play.",
+    "author": "Unknown"
+  },
+  {
+    "id": 41,
+    "text": "I fear not the man who practiced 10,000 kicks once, but I fear the man who practiced 1 kick 10,000 times.",
+    "author": "Unknown"
+  },
+  {
+    "id": 42,
+    "text": "It's okay to be imperfect for short period of time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 43,
+    "text": "Jack of all trades, master of none. Focus on one thing at a time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 44,
+    "text": "Just because you're busy doesn't mean you're productive. Get into a flow state and do deep work without distractions.",
+    "author": "Unknown"
+  },
+  {
+    "id": 45,
+    "text": "Humans can speak without thinking. But it is impossible to write without thinking. High quality books over anything.",
+    "author": "Unknown"
+  },
+  {
+    "id": 46,
+    "text": "Money buys you freedom in the materialistic world.",
+    "author": "Unknown"
+  },
+  {
+    "id": 47,
+    "text": "The computer was the most powerful tool ever invented by humanity—now it's AI. Leverage and make it your superpower.",
+    "author": "Unknown"
+  },
+  {
+    "id": 48,
+    "text": "You can't be normal and expect abnormal results.",
+    "author": "Unknown"
+  },
+  {
+    "id": 49,
+    "text": "If you're in depression, you're living in the past. If you're in anxiety, you're living in the future. If you're in peace, you're living in the present.",
+    "author": "Unknown"
+  },
+  {
+    "id": 50,
+    "text": "The best time to start was yesterday. The second best time is today.",
+    "author": "Unknown"
+  },
+  {
+    "id": 51,
+    "text": "Multitasking is an art to ruin two things at a time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 52,
+    "text": "The most powerful thing to overcome in the world is emotion.",
+    "author": "Unknown"
+  },
+  {
+    "id": 53,
+    "text": "Good is okay, but greatness is a choice.",
+    "author": "Unknown"
+  },
+  {
+    "id": 54,
+    "text": "A man has two lives; the second begins when he realizes he only has one.",
+    "author": "Unknown"
+  },
+  {
+    "id": 55,
+    "text": "Hard work beats talent, but consistency beats even hard work.",
+    "author": "Unknown"
+  },
+  {
+    "id": 56,
+    "text": "Quantity produces quality.",
+    "author": "Unknown"
+  },
+  {
+    "id": 57,
+    "text": "Hard work in the beginning leads to smart work.",
+    "author": "Unknown"
+  },
+  {
+    "id": 58,
+    "text": "Don't learn then start; start then learn.",
+    "author": "Unknown"
+  },
+  {
+    "id": 59,
+    "text": "Sometimes, you have to go through a material breakdown to achieve a spiritual breakthrough.",
+    "author": "Unknown"
+  },
+  {
+    "id": 60,
+    "text": "Don't give up what you want most for what feels good in the moment. Delayed gratification over instant gratification.",
+    "author": "Unknown"
+  },
+  {
+    "id": 61,
+    "text": "Just because someone doesn't post on social media doesn't mean they don't have a life. It could also mean they are living more of it beyond social media.",
+    "author": "Unknown"
+  },
+  {
+    "id": 62,
+    "text": "If you're confident, you won't feel the need to compare yourself to others. If you're focused and productive, you won't have time to scroll on social media.",
+    "author": "Unknown"
+  },
+  {
+    "id": 63,
+    "text": "An idiot admires complexity; a genius admires simplicity.",
+    "author": "Unknown"
+  },
+  {
+    "id": 64,
+    "text": "Desire is the enemy of happiness.",
+    "author": "Unknown"
+  },
+  {
+    "id": 65,
+    "text": "How you do one thing is how you do everything—most of the time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 66,
+    "text": "Most people overestimate what they can achieve in a year and underestimate what they can achieve in ten years.",
+    "author": "Unknown"
+  },
+  {
+    "id": 67,
+    "text": "Time is more valuable than money. You can get more money, but you cannot get more time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 68,
+    "text": "Time is the new currency.",
+    "author": "Unknown"
+  },
+  {
+    "id": 69,
+    "text": "Whenever you're feeling low, go take a shower.",
+    "author": "Unknown"
+  },
+  {
+    "id": 70,
+    "text": "You will never be criticized by someone who is doing more than you, you will only be criticized by someone who is doing less than you—most of the time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 71,
+    "text": "A winner is just a loser who tried one more time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 72,
+    "text": "If you ever need motivation to get rich, go to a club and don't drink.",
+    "author": "Unknown"
+  },
+  {
+    "id": 73,
+    "text": "We only tend to regret the things we didn't do, rather than the things we did do.",
+    "author": "Unknown"
+  },
+  {
+    "id": 74,
+    "text": "Broke people spend time to save money. Rich people spend money to save money.",
+    "author": "Unknown"
+  },
+  {
+    "id": 75,
+    "text": "You only need to win once.",
+    "author": "Unknown"
+  },
+  {
+    "id": 76,
+    "text": "Learning without taking action is still learning.",
+    "author": "Unknown"
+  },
+  {
+    "id": 77,
+    "text": "Making an extra $10k is easier than trying to save $10k.",
+    "author": "Elon Musk"
+  },
+  {
+    "id": 78,
+    "text": "Learn from experts who've invested 10,000 hours—so you don't have to.",
+    "author": "Unknown"
+  },
+  {
+    "id": 79,
+    "text": "Impatient with Actions, Patient with Results.",
+    "author": "Unknown"
+  },
+  {
+    "id": 80,
+    "text": "Inspiration is perishable so take action immediately when you feel inspired.",
+    "author": "Unknown"
+  },
+  {
+    "id": 81,
+    "text": "Your lifestyle is your opponent's greatest asset.",
+    "author": "Unknown"
+  },
+  {
+    "id": 82,
+    "text": "Money is life. People trade their time for money. Get back your life by becoming financially independent.",
+    "author": "Unknown"
+  },
+  {
+    "id": 83,
+    "text": "To become rich in 20's, you require psychopathic levels of commitment, sacrifice, and obsession.",
+    "author": "Unknown"
+  },
+  {
+    "id": 84,
+    "text": "Business is just a reflection of your personal life.",
+    "author": "Unknown"
+  },
+  {
+    "id": 85,
+    "text": "\"Luck\" is a combination of what you do, who you do it with, and how many times you show up. If you want to get lucky, do the right things with the right people for a long time without many long breaks. That's where magic happens.",
+    "author": "Unknown"
+  },
+  {
+    "id": 86,
+    "text": "The simplest way to live the life you want is to decide what that is, and say no to everything that isn't that. Simple not easy.",
+    "author": "Alex Hormozi"
+  },
+  {
+    "id": 87,
+    "text": "The biggest risk to your future isn't your competition, it's the distractions you insist on keeping in your life rather than doing the things you know you should be doing but aren't.",
+    "author": "Alex Hormozi"
+  },
+  {
+    "id": 88,
+    "text": "The fastest way to change your life is to change who you compare yourself to.",
+    "author": "Alex Hormozi"
+  },
+  {
+    "id": 89,
+    "text": "If you have nothing in your life, but you have at least one person that loves you unconditionally, it'll do wonders in your self-esteem.",
+    "author": "Naval Ravikant"
+  },
+  {
+    "id": 90,
+    "text": "Books make for great friends, because the best thinkers of the last few thousand years tell you their nuggets of wisdom.",
+    "author": "Naval Ravikant"
+  },
+  {
+    "id": 91,
+    "text": "A busy calendar and a busy mind will destroy your ability to do great things in this world. If you want to do great things—whether you're a musician or entrepreneur or investor—you need free time and a free mind.",
+    "author": "Naval Ravikant"
+  },
+  {
+    "id": 92,
+    "text": "Willpower is finite. Motivation is perishable.",
+    "author": "Unknown"
+  },
+  {
+    "id": 93,
+    "text": "Avoid taking advice from someone who's never been where you're going.",
+    "author": "Unknown"
+  },
+  {
+    "id": 94,
+    "text": "Insecure people call you insecure. Paranoid people call you paranoid. Don't let them gaslight you—stay strong.",
+    "author": "Unknown"
+  },
+  {
+    "id": 95,
+    "text": "If you are ambitious, never limit yourself. Don't set any limitations.",
+    "author": "Unknown"
+  },
+  {
+    "id": 96,
+    "text": "There is no motivation without deprivation.",
+    "author": "Unknown"
+  },
+  {
+    "id": 97,
+    "text": "Show me your YouTube, and I'll tell you your goals. Show me your calendar, and I'll tell you how serious you are about them.",
+    "author": "Unknown"
+  },
+  {
+    "id": 98,
+    "text": "If you're living in poor and desperately want to become rich, don't listen to peers in your current circle. Change your environment—or at least be alone and surround yourself with virtual mentors.",
+    "author": "Unknown"
+  },
+  {
+    "id": 99,
+    "text": "Be intentional about your social circle.",
+    "author": "Unknown"
+  },
+  {
+    "id": 100,
+    "text": "You are the average of the people you spend your time with.",
+    "author": "Unknown"
+  },
+  {
+    "id": 101,
+    "text": "The people you habitually associate with determine as much as 95 percent of your success or failure in life.",
+    "author": "Harvard reference group study"
+  },
+  {
+    "id": 102,
+    "text": "If someone isn't helping you reach your goals, either change the person or change your goals.",
+    "author": "Unknown"
+  },
+  {
+    "id": 103,
+    "text": "You are crazy until you become rich/successful.",
+    "author": "Unknown"
+  },
+  {
+    "id": 104,
+    "text": "The quality of relationships matters more than quantity.",
+    "author": "Unknown"
+  },
+  {
+    "id": 105,
+    "text": "Sleep is non-negotiable.",
+    "author": "Unknown"
+  },
+  {
+    "id": 106,
+    "text": "Show me your screen time, and I'll tell you your focus.",
+    "author": "Unknown"
+  },
+  {
+    "id": 107,
+    "text": "Control the senses, overcome desire, act skillfully without attachment, and find fulfillment in the action itself rather than its rewards.",
+    "author": "Bhagavad Gita"
+  },
+  {
+    "id": 108,
+    "text": "Failures don't matter, you only truly fail when you quit. As long as you keep improving and trying again, you're winning.",
+    "author": "Unknown"
+  },
+  {
+    "id": 109,
+    "text": "Don't let money inflate your ego and make you look down on others.",
+    "author": "Unknown"
+  },
+  {
+    "id": 110,
+    "text": "Do good deeds, donate money, and make the world a better place when you have plenty of money.",
+    "author": "Unknown"
+  },
+  {
+    "id": 111,
+    "text": "It's not just about what you know—it's about being in the right place, with the right people, at the right time.",
+    "author": "Unknown"
+  },
+  {
+    "id": 112,
+    "text": "Your life is not what you dream, feel, or say—it's the sum of the decisions you've made. And before every decision comes a thought—thinking.",
+    "author": "Unknown"
+  },
+  {
+    "id": 113,
+    "text": "Think. Plan. Execute.",
+    "author": "Unknown"
+  },
+  {
+    "id": 114,
+    "text": "Criticism is good feedback if you listen unemotionally.",
+    "author": "Unknown"
+  },
+  {
+    "id": 115,
+    "text": "Have strong opinions loosely held.",
+    "author": "Unknown"
+  },
+  {
+    "id": 116,
+    "text": "80% of health is sleep, diet, and exercise.",
+    "author": "Unknown"
+  },
+  {
+    "id": 117,
+    "text": "The only true test of intelligence is if you get what you wanted out of life.",
+    "author": "Naval Ravikant"
+  },
+  {
+    "id": 118,
+    "text": "ATTENTION is all you need.",
+    "author": "Unknown"
+  }
+]
