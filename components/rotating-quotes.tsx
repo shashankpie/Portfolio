@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
-import { getAllQuotes, type Quote } from "@/lib/quotes";
+import { getAllQuotes } from "@/lib/quotes";
 
 export function RotatingQuotes() {
   const quotes = getAllQuotes();
