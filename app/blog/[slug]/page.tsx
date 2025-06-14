@@ -128,7 +128,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             <img
               src={post.image}
               alt={post.imageAlt || post.title}
-              className="max-w-md h-auto rounded-lg"
+              className="w-full max-w-md h-auto rounded-lg"
             />
           </div>
         )}
