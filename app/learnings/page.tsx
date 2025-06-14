@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 import { Calendar, Clock, ArrowRight } from "lucide-react";
+import { RotatingQuotes } from "@/components/rotating-quotes";
 
 export default function LearningsPage() {
   const posts = getAllPosts();
@@ -82,9 +83,9 @@ export default function LearningsPage() {
             )}
           </section>
 
-          <section>
+          <section className="group">
             <h2 className="text-xl font-semibold mb-6">Quotes</h2>
-            <div className="text-muted-foreground">Coming soon...</div>
+            <RotatingQuotes />
           </section>
         </div>
       </div>
