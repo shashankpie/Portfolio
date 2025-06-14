@@ -1,9 +1,41 @@
+"use client";
+
+import { useState } from "react";
 import { getAllQuotes } from "@/lib/quotes";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
 export default function QuotesPage() {
   const quotes = getAllQuotes();
+  const [tooltip, setTooltip] = useState<{ visible: boolean; x: number; y: number; author: string }>({
+    visible: false,
+    x: 0,
+    y: 0,
+    author: ''
+  });
+
+  const handleMouseEnter = (e: React.MouseEvent, author: string) => {
+    setTooltip({
+      visible: true,
+      x: e.clientX,
+      y: e.clientY,
+      author
+    });
+  };
+
+  const handleMouseMove = (e: React.MouseEvent) => {
+    if (tooltip.visible) {
+      setTooltip(prev => ({
+        ...prev,
+        x: e.clientX,
+        y: e.clientY
+      }));
+    }
+  };
+
+  const handleMouseLeave = () => {
+    setTooltip(prev => ({ ...prev, visible: false }));
+  };
 
   return (
     <div className="py-12">
@@ -25,16 +57,32 @@ export default function QuotesPage() {
 
         <div className="space-y-6">
           {quotes.map((quote) => (
-            <div key={quote.id} className="group relative block">
-              <span className="text-foreground leading-relaxed inline-block">
+            <div 
+              key={quote.id} 
+              className="block cursor-pointer"
+              onMouseEnter={(e) => handleMouseEnter(e, quote.author)}
+              onMouseMove={handleMouseMove}
+              onMouseLeave={handleMouseLeave}
+            >
+              <p className="text-foreground leading-relaxed">
                 {quote.text}
-                <div className="absolute top-0 left-full ml-1 opacity-0 group-hover:opacity-100 transition-all duration-200 text-xs text-muted-foreground bg-background border border-border rounded px-2 py-1 shadow-sm whitespace-nowrap">
-                  — {quote.author}
-                </div>
-              </span>
+              </p>
             </div>
           ))}
         </div>
+
+        {/* Floating tooltip */}
+        {tooltip.visible && (
+          <div 
+            className="fixed z-50 px-3 py-2 text-sm text-foreground bg-popover border border-border rounded-md shadow-lg pointer-events-none transition-opacity duration-200"
+            style={{
+              left: tooltip.x + 10,
+              top: tooltip.y - 40,
+            }}
+          >
+            — {tooltip.author}
+          </div>
+        )}
 
         {/* Back to top */}
         <div className="text-center mt-12">
