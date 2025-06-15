@@ -1,41 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { getAllQuotes } from "@/lib/quotes";
 import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
 export default function QuotesPage() {
   const quotes = getAllQuotes();
-  const [tooltip, setTooltip] = useState<{ visible: boolean; x: number; y: number; author: string }>({
-    visible: false,
-    x: 0,
-    y: 0,
-    author: ''
-  });
-
-  const handleMouseEnter = (e: React.MouseEvent, author: string) => {
-    setTooltip({
-      visible: true,
-      x: e.clientX,
-      y: e.clientY,
-      author
-    });
-  };
-
-  const handleMouseMove = (e: React.MouseEvent) => {
-    if (tooltip.visible) {
-      setTooltip(prev => ({
-        ...prev,
-        x: e.clientX,
-        y: e.clientY
-      }));
-    }
-  };
-
-  const handleMouseLeave = () => {
-    setTooltip(prev => ({ ...prev, visible: false }));
-  };
+  const [hoveredQuote, setHoveredQuote] = useState<number | null>(null);
 
   return (
     <div className="py-12">
@@ -57,32 +30,42 @@ export default function QuotesPage() {
 
         <div className="space-y-6">
           {quotes.map((quote) => (
-            <div 
-              key={quote.id} 
-              className="block cursor-pointer"
-              onMouseEnter={(e) => handleMouseEnter(e, quote.author)}
-              onMouseMove={handleMouseMove}
-              onMouseLeave={handleMouseLeave}
-            >
-              <p className="text-foreground leading-relaxed">
+            <div key={quote.id} className="quote-item">
+              <motion.p
+                className="text-foreground leading-relaxed"
+                onMouseEnter={() => setHoveredQuote(quote.id)}
+                onMouseLeave={() => setHoveredQuote(null)}
+              >
                 {quote.text}
-              </p>
+                <AnimatePresence>
+                  {hoveredQuote === quote.id && (
+                    <motion.span
+                      initial={{ opacity: 0, x: -10, scale: 0.9 }}
+                      animate={{ 
+                        opacity: [0, 0.3, 0.7, 1],
+                        x: 0, 
+                        scale: 1 
+                      }}
+                      exit={{ 
+                        opacity: [1, 0.6, 0.2, 0],
+                        x: -5, 
+                        scale: 0.95 
+                      }}
+                      transition={{ 
+                        duration: 0.3,
+                        ease: [0.16, 1, 0.3, 1],
+                        opacity: { duration: 0.4, ease: "easeInOut" }
+                      }}
+                      className="text-sm text-muted-foreground"
+                    >
+                      {" — " + quote.author}
+                    </motion.span>
+                  )}
+                </AnimatePresence>
+              </motion.p>
             </div>
           ))}
         </div>
-
-        {/* Floating tooltip */}
-        {tooltip.visible && (
-          <div 
-            className="fixed z-50 px-3 py-2 text-sm text-foreground bg-popover border border-border rounded-md shadow-lg pointer-events-none transition-opacity duration-200"
-            style={{
-              left: tooltip.x + 10,
-              top: tooltip.y - 40,
-            }}
-          >
-            — {tooltip.author}
-          </div>
-        )}
 
         {/* Back to top */}
         <div className="text-center mt-12">
