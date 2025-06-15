@@ -56,10 +56,10 @@ export function useAvailabilityStatus(): AvailabilityStatus {
     // Set initial status
     setStatus(getAvailabilityStatus());
 
-    // Update every 15 minutes
+    // Update every 5 minutes
     const interval = setInterval(() => {
       setStatus(getAvailabilityStatus());
-    }, 15 * 60 * 1000); // 15 minutes
+    }, 5 * 60 * 1000); // 5 minutes
 
     return () => clearInterval(interval);
   }, []);
