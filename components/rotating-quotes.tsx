@@ -16,7 +16,7 @@ export function RotatingQuotes() {
 
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % quotes.length);
-    }, 4000); // 4 seconds
+    }, 3000); // 3 seconds
 
     return () => clearInterval(interval);
   }, [quotes.length, isHovered]);
