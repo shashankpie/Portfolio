@@ -25,7 +25,7 @@ export default function QuotesPage() {
         <h1 className="text-3xl font-bold mb-8">All Quotes</h1>
 
         <p className="text-muted-foreground mb-8 leading-relaxed">
-          These are some of the best quotes I&apos;ve collected over time, and I strongly believe in and resonate with them. Most were written by others, while some are my own.
+          These are some of the best quotes I&apos;ve collected over time, and I deeply resonate with them. Most were written by others with little to no changes, while some are my own—either inspired by others or born from my own reflections.
         </p>
 
         <div className="space-y-6">
