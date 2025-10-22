@@ -82,7 +82,7 @@ function Li({ children, ...props }: React.HTMLProps<HTMLLIElement>) {
 function Blockquote({ children, ...props }: React.HTMLProps<HTMLQuoteElement>) {
   return (
     <blockquote 
-      className="border-l-4 border-blue-500 pl-4 my-4 italic text-muted-foreground bg-muted/50 pt-2 rounded-r-lg" 
+      className="border-l-4 border-blue-500 pl-4 my-4 italic text-muted-foreground bg-muted/50 pt-2 pb-0 rounded-r-lg" 
       {...props}
     >
       {children}
